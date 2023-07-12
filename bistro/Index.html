@@ -9,7 +9,10 @@
 <head>
   <meta charset="utf-8">
   <title>Black Goose Bistro</title>
-  <style>body {
+
+
+  <style>
+  body {
     background-color: #f5c2c5;
     margin: 0 15%;
     font-family: sans-serif;
@@ -28,7 +31,40 @@
     font-size: 1em;
   }
 
+.button
+{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 auto;
+	width: 15%;
+	padding: 8px;
+	border: 2px solid;
+	border-color: #e7dd84;
+	background-color: rgba(236,229,167,0.2);
+	transition: 0.35s;
 
+}
+.button a, active
+{
+	text-decoration: none;
+	color: #e7dd84;
+
+}
+
+.button:hover a
+{
+	text-decoration: none;
+	color: black;
+
+}
+
+.button:hover
+{
+	color: black;
+	background-color: white;
+	border-color: white;
+	transition: 0.35s;
+}
   </style>
 </head>
 
@@ -55,5 +91,10 @@
   <p>Seekonkm Massachusetts;
     <br />Monday through Thursday 11am to 9pm, <br />Friday and Saturday 11am to midnight</p>
 
+    <div class="container">
+        <a class="button" href="pizza.html"><img src="images/Order_now.png" ></a>
+      </div>
+
+</body>
 
 </html>
